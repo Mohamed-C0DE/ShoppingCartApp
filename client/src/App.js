@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1>Recording: {isRecording.toString()}</h1>
+      <h1>Shopping List App</h1>
       <button onClick={isRecording ? stopSpeechToText : startSpeechToText}>
         {isRecording ? "Stop Recording" : "Start Recording"}
       </button>
